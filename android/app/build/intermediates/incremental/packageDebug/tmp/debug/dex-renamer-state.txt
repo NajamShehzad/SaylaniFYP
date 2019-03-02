@@ -1,4 +1,4 @@
-#Wed Feb 27 19:36:28 PKT 2019
-base.0=/Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/build/intermediates/transforms/dexMerger/debug/0
+#Sat Mar 02 11:50:20 PKT 2019
+base.0=C\:\\Users\\Najam\\Desktop\\Hackthon\\reactnative-nodejs-app\\firstProject\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

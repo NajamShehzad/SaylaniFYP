@@ -1,20 +1,20 @@
 import React, { Component } from "react";
 import { Router, Stack, Scene, Tabs, Actions } from "react-native-router-flux";
 import { View, TouchableOpacity } from "react-native";
-import LoginPage from "../components/LoginPage/LoginPage";
-import Home from "../components/Home/Home";
-import UploadData from "../components/UploadData/UploadData";
+import LoginPage from "../components/loginPage/LoginPage";
+import Home from "../components/home/Home";
+import UploadData from "../components/uploadData/UploadData";
 import { Icon } from "react-native-elements";
-import Profile from "../components/Profile/Profile";
-import Services from "../components/Services/Services";
-import ContactsList from "../components/ContactsList/ContactsList";
-import AddService from "../components/AddService/AddService";
+import Profile from "../components/profile/Profile";
+import Services from "../components/services/Services";
+import ContactsList from "../components/contactsList/ContactsList";
+import AddService from "../components/addService/AddService";
 import { Header } from "react-native-elements";
-import SearchPage from "../components/SearchPage/SearchPage";
-import Activites from "../components/Activites/Activites";
+import SearchPage from "../components/searchPage/SearchPage";
+import Activites from "../components/activites/Activites";
 import { AsyncStorage } from "react-native";
-import Chat from "../components/Messages/Chat";
-import AllMessages from "../components/Messages/AllMessages";
+import Chat from "../components/messages/Chat";
+import AllMessages from "../components/messages/AllMessages";
 import { LoginManager } from "react-native-fbsdk";
 
 const ElementHeader = props => {
@@ -34,7 +34,7 @@ const ElementHeader = props => {
       }
       centerComponent={{
         text: "Fiverr",
-        style: { color: "#fff", fontFamily: "Kailasa-Bold", ontWeight: "bold" }
+        style: { color: "#fff", fontWeight: "bold" }
       }}
       rightComponent={
         <TouchableOpacity onPress={() => {

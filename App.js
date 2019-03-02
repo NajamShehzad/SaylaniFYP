@@ -1,7 +1,8 @@
-import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, Button} from 'react-native';
+import React, { Component } from 'react';
+import { Platform, StyleSheet, Text, View, Button } from 'react-native';
 import Route from './route/Route';
 import SocketIOClient from 'socket.io-client';
+import Map from './components/map/Map';
 
 
 const instructions = Platform.select({
@@ -12,38 +13,44 @@ const instructions = Platform.select({
 });
 
 
+
+
+
+
+
 export default class App extends Component {
-  constructor(props){
+  constructor(props) {
     super(props)
     console.log("From App")
     this.socket = SocketIOClient('https://a085829a.ngrok.io');
     this.socket.on('message', this.onReceivedMessage);
   }
-  onReceivedMessage(message){
-    console.log("from server====>>>",message)
+  onReceivedMessage(message) {
+    console.log("from server====>>>", message)
   }
- 
+
   // render() {
   //   return (
   //     <View style={{...styles.hw,...styles.hh}}>
-       
+
   //       <LoginPage />
   //     </View>
   //   );
   // }
-  
+
   render() {
-      return (
-        <Route />
-      );
-    }
+    return (
+      // <Route />
+      <Map />
+    );
+  }
 }
 
 const styles = StyleSheet.create({
-  hw:{
+  hw: {
     width: '100%'
   },
-  hh:{
+  hh: {
     height: '100%'
   },
   container: {

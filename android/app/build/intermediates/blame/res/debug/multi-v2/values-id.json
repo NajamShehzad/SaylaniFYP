@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-id/values-id.xml",
+            "outputFile": "C:\\Users\\Najam\\Desktop\\Hackthon\\reactnative-nodejs-app\\firstProject\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
             "map": [
                 {
-                    "source": "/Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-common-4.34.0.aar/8a5298cc7c12e5ab63b94aa6ce9fd417/res/values-id/values-id.xml",
+                    "source": "C:\\Users\\Najam\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-common-4.34.0.aar\\df60e3936bc822b17d9824fad9d48133\\res\\values-id\\values-id.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

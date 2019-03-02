@@ -1,358 +1,430 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:1:1-30:12
-INJECTED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:1:1-30:12
-INJECTED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:1:1-30:12
-INJECTED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:1:1-30:12
-MERGED from [:react-native-fs] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-fs/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-13:12
-MERGED from [:react-native-image-resizer] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-image-resizer/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-image-picker] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-23:12
-MERGED from [:react-native-vector-icons] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-fbsdk] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-fbsdk/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:21:1-30:12
-MERGED from [com.facebook.android:facebook-android-sdk:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.34.0.aar/8d02c7d33da0dcdd77605a1f4c61227c/AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.react:react-native:0.58.5] /Users/najam/.gradle/caches/transforms-1/files-1.1/react-native-0.58.5.aar/b0b850139c7481c9ba2c2462adcee8eb/AndroidManifest.xml:2:1-15:12
-MERGED from [com.facebook.android:facebook-login:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-login-4.34.0.aar/02e8f8a60dac478fd4a96ca932ad2dcd/AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-share:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-share-4.34.0.aar/32860fa6ae93be850fdea0bf100f8a75/AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-common:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-common-4.34.0.aar/8a5298cc7c12e5ab63b94aa6ce9fd417/AndroidManifest.xml:21:1-37:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/357b1285f7be12893173fdd366b32fc3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.android:facebook-places:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-places-4.34.0.aar/1c110a5429249373f2a5fcfc4dcb85ab/AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-applinks:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.34.0.aar/52e487e1af38a8942b48fd5ba083d597/AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-messenger:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.34.0.aar/b272b07bb63c94d7d4b2c2a3c548a3e2/AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-marketing:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.34.0.aar/fcd0e569f2fd867186f6b227ae476469/AndroidManifest.xml:21:1-35:12
-MERGED from [com.facebook.android:facebook-core:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-core-4.34.0.aar/1e07bca4be78898bbf0d2bb6765dc257/AndroidManifest.xml:21:1-53:12
-MERGED from [com.android.support:support-v4:27.0.2] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/2db3cef0ba32687a4c0aa39cd5f85a9e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d2c586fca848c8380d87569a8e4b8aa7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/7daae12013f56b5d599bcbb5a89ba00a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/d699fbcce45674817245a65144b09b5c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/942e39291189cee45bb2602e6dbb2b61/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/696c46facbf57edebc5cfd5ce939ab08/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customtabs:27.0.2] /Users/najam/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/7abf94280380916cab832be94becfb74/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/2dd8750302e0e79cb30242f77268fb49/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.0.2] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/e994114b0b1a1c437e5b749a43fc6a37/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/b8de43735560b944e0ba905a66856a2f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/3592b9401c5b2fc619be6c6d5636a831/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/5e6e4cd75a1b6f94d9c8d96ac2c71e0f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/b05363fef833439464ccfc957b95f524/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/eba6c9c11aa72337e56ea6c7fc94265b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0a85dbef3b04c8034fba829658c7fda2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/447e779eb9feb3f9fcc221c52e80ee8c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/3f6c6c96853de39760c5a0aba70cdb50/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/9ad2a943378c0865e4ce638e7cbe6b04/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/5b981e772d4b4ffa1fc6842cbb0e8f3c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.0.2] /Users/najam/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/9e0908720036ba609873663fea1de752/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/najam/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/2da965133966d62f05a791187efd556a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f1cb608f1d6a19298d2f7877bea8d845/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/036f054dd825c123e711048ad241907b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/3e4f974a8dc1c0a1b6198360cac7442e/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/najam/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/576ef29243313005cccc9041708ff780/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/najam/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/2567888e14b4a79acc8a7934c79544c1/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/najam/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0e6c428c100d6466d0fb3223168cb7c5/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /Users/najam/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3e78182372b5fe0bc64e7f41dba7f67d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/bd010d62897fb6be4ac0603bead513ff/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/6b3c4f88e77e32c3cec7f1246e9c002a/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/d2f78e879529381efa2e7891a8ab595a/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/a2303c88007597a0d95e9a1635dd426c/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/f74996c5f95779748bdbf4a4b01301c7/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/f123e644d43f836ce3a114bdef3babaf/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/d5d36a84548a479a72494c2e109b3933/AndroidManifest.xml:2:1-13:12
-MERGED from [org.webkit:android-jsc:r174650] /Users/najam/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/24bb07a6c7949b98b46fc5c4c13069c0/AndroidManifest.xml:1:1-3:12
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/c0246b1b7098524ee5b5928a05f8f8bd/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:1:1-30:12
-INJECTED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:1:1-30:12
-INJECTED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:1:1-30:12
+ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:1:1-35:12
+MERGED from [:react-native-maps] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-maps\lib\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-fs] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-fs\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-image-resizer] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-image-resizer\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-picker] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-23:12
+MERGED from [:react-native-vector-icons] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-fbsdk] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-fbsdk\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:21:1-30:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.34.0.aar\496c41e2bf7ca729ff0439c311dbb903\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.react:react-native:0.58.5] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\react-native-0.58.5.aar\2260572e70d1feed8f5325afe17dc231\AndroidManifest.xml:2:1-15:12
+MERGED from [com.facebook.android:facebook-login:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-login-4.34.0.aar\4d8dc393ccb64c98dc3781c078381529\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-share-4.34.0.aar\7e6e21ad09eb059857d8103b77bfdcbd\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\df60e3936bc822b17d9824fad9d48133\AndroidManifest.xml:21:1-37:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\3bb79d4b31d3aea402805c40da62903c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\f3684e5ef8861d2e858d60bfbf4c419d\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\29e1196e2c8cb53c4f94de433992ef75\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\90ad4a7c4b0cbfa0e150aff460d4c8e8\AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.android:facebook-places:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-places-4.34.0.aar\25825f89df364694413116b52dcd4cc0\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.34.0.aar\025480f3b85bec8dafd2db02e4124544\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.34.0.aar\73ad834c58efe5cdadb2b6fd853e9839\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-marketing:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.34.0.aar\e611dfd732172397d3203d14cf7e7104\AndroidManifest.xml:21:1-35:12
+MERGED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\914945917a32d28c49f4af83f4a3902e\AndroidManifest.xml:21:1-53:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\a37bc43a88fbd897dc208fa3c287f732\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\71bb4d6c954844fa09cb6f94bec9729d\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\904ae2e7dc990314c8d1cd5f641745a0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\cd127ac3ff6dec6af5785422df6ea982\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\ad7944fb13e6f571465d0e8679a6c8ed\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b31f47c0f17760de357734c4b39ea5fa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\d186ee196738d2461c49ee13af50d781\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\711c6baa62d82d887b2cb54a98deb147\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\b512535c664dc94a3b0c86909005b0ea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\89865d306ea0e691a8c90a10ab26b5d9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\5a080460c97317143d0e75427cc247de\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\b3292de824d386a862189f8847bbea9c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\28994f2d880c66b3d10bf80dae674579\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\38e44a144ee9be14ecef04d793c8d0bb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\bd9eaf8b90a5340ef179d187ba592d04\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\ddc84698183baf7e4dedcfb11a45c89e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\418c4d189c9091e411fc73ffa4ccec11\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\df0d4b6859a84854641b14921e74f8d3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f1c6f7d6d7d6642da8e15ab3cc00b297\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\fc3f12a7d1aaca3446f091f6c82a84a3\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\95cccdfe691709ebe8c100b13a1a1989\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\83085e186e1f23a9ef3a32ade72a14ac\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1dd17ff735104b83db7628281af0f8b6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\473ca53963eb65984c2040088d87dec3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\9f0812776f21957325558d7024a680ab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\9d3f92f4ccdf64be0ab1ac372e89d6b7\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\7567ba50c8dfe36c95263a4445c94575\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\16bc07771bc0f4d2144b6ed1550161ac\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\57f02cd88f3048d4500859708d7cfff0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b6ff480053e460faad8a8dc2d88dfbfe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\70d3f61a811ee79201f522756a19fa81\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\5a9ea4bfb80fadb07840937929980dff\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\b6c4b64a966e26cf479b9698ca66551f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\1347813e270f6905c1b79428d256f6f8\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\388442fc30f09c2c6b613fe26b7bf0ec\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\6cb8f8b4d765437cd7214441d386c657\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\d2fdfebb49ef6b86e4e9bbe6f88f0f7a\AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\257223ed0f68dff5a68d3476f8bacc1f\AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\b30f68c6db5b44297eb23980dfdc3404\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:1:1-35:12
 	package
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:2:5-31
-		INJECTED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:2:5-31
+		INJECTED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:1:1-30:12
-		INJECTED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:1:1-35:12
+		INJECTED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:1:1-30:12
-		INJECTED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:1:1-35:12
+		INJECTED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [:react-native-maps] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-maps\lib\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-maps\lib\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\f3684e5ef8861d2e858d60bfbf4c419d\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\f3684e5ef8861d2e858d60bfbf4c419d\AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:5:5-77
-MERGED from [com.facebook.react:react-native:0.58.5] /Users/najam/.gradle/caches/transforms-1/files-1.1/react-native-0.58.5.aar/b0b850139c7481c9ba2c2462adcee8eb/AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.58.5] /Users/najam/.gradle/caches/transforms-1/files-1.1/react-native-0.58.5.aar/b0b850139c7481c9ba2c2462adcee8eb/AndroidManifest.xml:11:5-78
+ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.58.5] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\react-native-0.58.5.aar\2260572e70d1feed8f5325afe17dc231\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.58.5] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\react-native-0.58.5.aar\2260572e70d1feed8f5325afe17dc231\AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:5:22-75
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:5:22-75
 uses-permission#android.permission.CAMERA
-ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:6:5-65
+ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:6:5-65
 	android:name
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:6:22-62
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:6:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:7:5-80
-MERGED from [:react-native-fs] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-fs/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-81
-MERGED from [:react-native-fs] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-fs/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-81
+ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:7:5-80
+MERGED from [:react-native-fs] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-fs\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-81
+MERGED from [:react-native-fs] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-fs\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:7:22-78
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:8:22-76
 application
-ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:9:5-28:19
-MERGED from [:react-native-image-picker] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-21:19
-MERGED from [:react-native-image-picker] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-21:19
-MERGED from [:react-native-fbsdk] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-fbsdk/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:28:5-20
-MERGED from [:react-native-fbsdk] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-fbsdk/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:28:5-20
-MERGED from [com.facebook.android:facebook-android-sdk:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.34.0.aar/8d02c7d33da0dcdd77605a1f4c61227c/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-android-sdk:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.34.0.aar/8d02c7d33da0dcdd77605a1f4c61227c/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.react:react-native:0.58.5] /Users/najam/.gradle/caches/transforms-1/files-1.1/react-native-0.58.5.aar/b0b850139c7481c9ba2c2462adcee8eb/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.58.5] /Users/najam/.gradle/caches/transforms-1/files-1.1/react-native-0.58.5.aar/b0b850139c7481c9ba2c2462adcee8eb/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.android:facebook-login:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-login-4.34.0.aar/02e8f8a60dac478fd4a96ca932ad2dcd/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-login:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-login-4.34.0.aar/02e8f8a60dac478fd4a96ca932ad2dcd/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-share:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-share-4.34.0.aar/32860fa6ae93be850fdea0bf100f8a75/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-share:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-share-4.34.0.aar/32860fa6ae93be850fdea0bf100f8a75/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-common:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-common-4.34.0.aar/8a5298cc7c12e5ab63b94aa6ce9fd417/AndroidManifest.xml:28:5-35:19
-MERGED from [com.facebook.android:facebook-common:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-common-4.34.0.aar/8a5298cc7c12e5ab63b94aa6ce9fd417/AndroidManifest.xml:28:5-35:19
-MERGED from [com.facebook.android:facebook-places:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-places-4.34.0.aar/1c110a5429249373f2a5fcfc4dcb85ab/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-places:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-places-4.34.0.aar/1c110a5429249373f2a5fcfc4dcb85ab/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-applinks:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.34.0.aar/52e487e1af38a8942b48fd5ba083d597/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-applinks:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.34.0.aar/52e487e1af38a8942b48fd5ba083d597/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-messenger:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.34.0.aar/b272b07bb63c94d7d4b2c2a3c548a3e2/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-messenger:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.34.0.aar/b272b07bb63c94d7d4b2c2a3c548a3e2/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-marketing:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.34.0.aar/fcd0e569f2fd867186f6b227ae476469/AndroidManifest.xml:28:5-33:19
-MERGED from [com.facebook.android:facebook-marketing:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.34.0.aar/fcd0e569f2fd867186f6b227ae476469/AndroidManifest.xml:28:5-33:19
-MERGED from [com.facebook.android:facebook-core:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-core-4.34.0.aar/1e07bca4be78898bbf0d2bb6765dc257/AndroidManifest.xml:28:5-51:19
-MERGED from [com.facebook.android:facebook-core:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-core-4.34.0.aar/1e07bca4be78898bbf0d2bb6765dc257/AndroidManifest.xml:28:5-51:19
-MERGED from [com.android.support:support-compat:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/3f6c6c96853de39760c5a0aba70cdb50/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/3f6c6c96853de39760c5a0aba70cdb50/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/9ad2a943378c0865e4ce638e7cbe6b04/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/9ad2a943378c0865e4ce638e7cbe6b04/AndroidManifest.xml:22:5-23:19
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/d5d36a84548a479a72494c2e109b3933/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/d5d36a84548a479a72494c2e109b3933/AndroidManifest.xml:11:5-20
-MERGED from [org.webkit:android-jsc:r174650] /Users/najam/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/24bb07a6c7949b98b46fc5c4c13069c0/AndroidManifest.xml:2:3-17
-MERGED from [org.webkit:android-jsc:r174650] /Users/najam/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/24bb07a6c7949b98b46fc5c4c13069c0/AndroidManifest.xml:2:3-17
+ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:11:5-33:19
+MERGED from [:react-native-image-picker] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-image-picker] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-fbsdk] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-fbsdk\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:28:5-20
+MERGED from [:react-native-fbsdk] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-fbsdk\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:28:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.34.0.aar\496c41e2bf7ca729ff0439c311dbb903\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.34.0.aar\496c41e2bf7ca729ff0439c311dbb903\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.react:react-native:0.58.5] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\react-native-0.58.5.aar\2260572e70d1feed8f5325afe17dc231\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.58.5] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\react-native-0.58.5.aar\2260572e70d1feed8f5325afe17dc231\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.android:facebook-login:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-login-4.34.0.aar\4d8dc393ccb64c98dc3781c078381529\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-login-4.34.0.aar\4d8dc393ccb64c98dc3781c078381529\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-share-4.34.0.aar\7e6e21ad09eb059857d8103b77bfdcbd\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-share-4.34.0.aar\7e6e21ad09eb059857d8103b77bfdcbd\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\df60e3936bc822b17d9824fad9d48133\AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\df60e3936bc822b17d9824fad9d48133\AndroidManifest.xml:28:5-35:19
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\f3684e5ef8861d2e858d60bfbf4c419d\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\f3684e5ef8861d2e858d60bfbf4c419d\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\29e1196e2c8cb53c4f94de433992ef75\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\29e1196e2c8cb53c4f94de433992ef75\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\90ad4a7c4b0cbfa0e150aff460d4c8e8\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\90ad4a7c4b0cbfa0e150aff460d4c8e8\AndroidManifest.xml:7:5-11:19
+MERGED from [com.facebook.android:facebook-places:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-places-4.34.0.aar\25825f89df364694413116b52dcd4cc0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-places-4.34.0.aar\25825f89df364694413116b52dcd4cc0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.34.0.aar\025480f3b85bec8dafd2db02e4124544\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.34.0.aar\025480f3b85bec8dafd2db02e4124544\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.34.0.aar\73ad834c58efe5cdadb2b6fd853e9839\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.34.0.aar\73ad834c58efe5cdadb2b6fd853e9839\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-marketing:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.34.0.aar\e611dfd732172397d3203d14cf7e7104\AndroidManifest.xml:28:5-33:19
+MERGED from [com.facebook.android:facebook-marketing:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.34.0.aar\e611dfd732172397d3203d14cf7e7104\AndroidManifest.xml:28:5-33:19
+MERGED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\914945917a32d28c49f4af83f4a3902e\AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\914945917a32d28c49f4af83f4a3902e\AndroidManifest.xml:28:5-51:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\a37bc43a88fbd897dc208fa3c287f732\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\a37bc43a88fbd897dc208fa3c287f732\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\71bb4d6c954844fa09cb6f94bec9729d\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\71bb4d6c954844fa09cb6f94bec9729d\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f1c6f7d6d7d6642da8e15ab3cc00b297\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f1c6f7d6d7d6642da8e15ab3cc00b297\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\fc3f12a7d1aaca3446f091f6c82a84a3\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\fc3f12a7d1aaca3446f091f6c82a84a3\AndroidManifest.xml:22:5-23:19
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\d2fdfebb49ef6b86e4e9bbe6f88f0f7a\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\d2fdfebb49ef6b86e4e9bbe6f88f0f7a\AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\257223ed0f68dff5a68d3476f8bacc1f\AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\257223ed0f68dff5a68d3476f8bacc1f\AndroidManifest.xml:2:3-17
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/3f6c6c96853de39760c5a0aba70cdb50/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f1c6f7d6d7d6642da8e15ab3cc00b297\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from [com.facebook.android:facebook-android-sdk:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.34.0.aar/8d02c7d33da0dcdd77605a1f4c61227c/AndroidManifest.xml:28:18-44
+		ADDED from [com.facebook.android:facebook-android-sdk:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.34.0.aar\496c41e2bf7ca729ff0439c311dbb903\AndroidManifest.xml:28:18-44
 	android:label
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:11:7-39
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:13:7-39
 	android:roundIcon
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:13:7-52
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:15:7-52
 	android:icon
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:12:7-41
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:14:7-41
 	android:allowBackup
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:14:7-34
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:16:7-34
 	android:theme
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:15:7-38
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:17:7-38
 	android:name
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:10:7-38
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:12:7-38
 activity#com.firstproject.MainActivity
-ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:16:7-25:18
+ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:18:7-27:18
 	android:label
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:18:9-41
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:20:9-41
 	android:windowSoftInputMode
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:20:9-51
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:22:9-51
 	android:configChanges
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:19:9-79
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:21:9-79
 	android:name
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:17:9-37
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:19:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:21:9-24:25
+ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:23:9-26:25
 action#android.intent.action.MAIN
-ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:22:13-65
+ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:24:13-65
 	android:name
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:22:21-62
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:24:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:23:13-73
+ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:25:13-73
 	android:name
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:23:23-70
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:25:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:26:7-84
+ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:28:7-84
 	android:name
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:26:17-81
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:28:17-81
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:27:7-105
+ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:29:7-105
 	android:value
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:27:64-103
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:29:64-103
 	android:name
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:27:18-63
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:29:18-63
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:30:8-32:64
+	android:value
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:32:7-62
+	android:name
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:31:7-52
 uses-sdk
-INJECTED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-fs] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-fs/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-fs] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-fs/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-image-resizer] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-image-resizer/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-image-resizer] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-image-resizer/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-image-picker] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-image-picker] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-fbsdk] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-fbsdk/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:24:5-26:41
-MERGED from [:react-native-fbsdk] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-fbsdk/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-android-sdk:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.34.0.aar/8d02c7d33da0dcdd77605a1f4c61227c/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-android-sdk:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.34.0.aar/8d02c7d33da0dcdd77605a1f4c61227c/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.react:react-native:0.58.5] /Users/najam/.gradle/caches/transforms-1/files-1.1/react-native-0.58.5.aar/b0b850139c7481c9ba2c2462adcee8eb/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.58.5] /Users/najam/.gradle/caches/transforms-1/files-1.1/react-native-0.58.5.aar/b0b850139c7481c9ba2c2462adcee8eb/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.android:facebook-login:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-login-4.34.0.aar/02e8f8a60dac478fd4a96ca932ad2dcd/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-login:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-login-4.34.0.aar/02e8f8a60dac478fd4a96ca932ad2dcd/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-share:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-share-4.34.0.aar/32860fa6ae93be850fdea0bf100f8a75/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-share:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-share-4.34.0.aar/32860fa6ae93be850fdea0bf100f8a75/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-common:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-common-4.34.0.aar/8a5298cc7c12e5ab63b94aa6ce9fd417/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-common:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-common-4.34.0.aar/8a5298cc7c12e5ab63b94aa6ce9fd417/AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/357b1285f7be12893173fdd366b32fc3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/357b1285f7be12893173fdd366b32fc3/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.android:facebook-places:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-places-4.34.0.aar/1c110a5429249373f2a5fcfc4dcb85ab/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-places:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-places-4.34.0.aar/1c110a5429249373f2a5fcfc4dcb85ab/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-applinks:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.34.0.aar/52e487e1af38a8942b48fd5ba083d597/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-applinks:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.34.0.aar/52e487e1af38a8942b48fd5ba083d597/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-messenger:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.34.0.aar/b272b07bb63c94d7d4b2c2a3c548a3e2/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-messenger:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.34.0.aar/b272b07bb63c94d7d4b2c2a3c548a3e2/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-marketing:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.34.0.aar/fcd0e569f2fd867186f6b227ae476469/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-marketing:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.34.0.aar/fcd0e569f2fd867186f6b227ae476469/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-core:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-core-4.34.0.aar/1e07bca4be78898bbf0d2bb6765dc257/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-core:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-core-4.34.0.aar/1e07bca4be78898bbf0d2bb6765dc257/AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:support-v4:27.0.2] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/2db3cef0ba32687a4c0aa39cd5f85a9e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/2db3cef0ba32687a4c0aa39cd5f85a9e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d2c586fca848c8380d87569a8e4b8aa7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d2c586fca848c8380d87569a8e4b8aa7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/7daae12013f56b5d599bcbb5a89ba00a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/7daae12013f56b5d599bcbb5a89ba00a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/d699fbcce45674817245a65144b09b5c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/d699fbcce45674817245a65144b09b5c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/942e39291189cee45bb2602e6dbb2b61/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/942e39291189cee45bb2602e6dbb2b61/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/696c46facbf57edebc5cfd5ce939ab08/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/696c46facbf57edebc5cfd5ce939ab08/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customtabs:27.0.2] /Users/najam/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/7abf94280380916cab832be94becfb74/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customtabs:27.0.2] /Users/najam/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/7abf94280380916cab832be94becfb74/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/2dd8750302e0e79cb30242f77268fb49/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/2dd8750302e0e79cb30242f77268fb49/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/e994114b0b1a1c437e5b749a43fc6a37/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/e994114b0b1a1c437e5b749a43fc6a37/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/b8de43735560b944e0ba905a66856a2f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/b8de43735560b944e0ba905a66856a2f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/3592b9401c5b2fc619be6c6d5636a831/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/3592b9401c5b2fc619be6c6d5636a831/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/5e6e4cd75a1b6f94d9c8d96ac2c71e0f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/5e6e4cd75a1b6f94d9c8d96ac2c71e0f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/b05363fef833439464ccfc957b95f524/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/b05363fef833439464ccfc957b95f524/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/eba6c9c11aa72337e56ea6c7fc94265b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/eba6c9c11aa72337e56ea6c7fc94265b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0a85dbef3b04c8034fba829658c7fda2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0a85dbef3b04c8034fba829658c7fda2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/447e779eb9feb3f9fcc221c52e80ee8c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/447e779eb9feb3f9fcc221c52e80ee8c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/3f6c6c96853de39760c5a0aba70cdb50/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/3f6c6c96853de39760c5a0aba70cdb50/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/9ad2a943378c0865e4ce638e7cbe6b04/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/9ad2a943378c0865e4ce638e7cbe6b04/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/5b981e772d4b4ffa1fc6842cbb0e8f3c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/5b981e772d4b4ffa1fc6842cbb0e8f3c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] /Users/najam/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/9e0908720036ba609873663fea1de752/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] /Users/najam/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/9e0908720036ba609873663fea1de752/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/najam/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/2da965133966d62f05a791187efd556a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/najam/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/2da965133966d62f05a791187efd556a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f1cb608f1d6a19298d2f7877bea8d845/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f1cb608f1d6a19298d2f7877bea8d845/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/036f054dd825c123e711048ad241907b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/036f054dd825c123e711048ad241907b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/3e4f974a8dc1c0a1b6198360cac7442e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/3e4f974a8dc1c0a1b6198360cac7442e/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/najam/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/576ef29243313005cccc9041708ff780/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/najam/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/576ef29243313005cccc9041708ff780/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/najam/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/2567888e14b4a79acc8a7934c79544c1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/najam/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/2567888e14b4a79acc8a7934c79544c1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/najam/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0e6c428c100d6466d0fb3223168cb7c5/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/najam/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0e6c428c100d6466d0fb3223168cb7c5/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/najam/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3e78182372b5fe0bc64e7f41dba7f67d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/najam/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3e78182372b5fe0bc64e7f41dba7f67d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/bd010d62897fb6be4ac0603bead513ff/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/bd010d62897fb6be4ac0603bead513ff/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/6b3c4f88e77e32c3cec7f1246e9c002a/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/6b3c4f88e77e32c3cec7f1246e9c002a/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/d2f78e879529381efa2e7891a8ab595a/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/d2f78e879529381efa2e7891a8ab595a/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/a2303c88007597a0d95e9a1635dd426c/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/a2303c88007597a0d95e9a1635dd426c/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/f74996c5f95779748bdbf4a4b01301c7/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/f74996c5f95779748bdbf4a4b01301c7/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/f123e644d43f836ce3a114bdef3babaf/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/f123e644d43f836ce3a114bdef3babaf/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/d5d36a84548a479a72494c2e109b3933/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/d5d36a84548a479a72494c2e109b3933/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/c0246b1b7098524ee5b5928a05f8f8bd/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/c0246b1b7098524ee5b5928a05f8f8bd/AndroidManifest.xml:5:5-7:41
-INJECTED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml
+INJECTED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-maps] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-maps\lib\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-maps\lib\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fs] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-fs\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fs] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-fs\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-resizer] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-image-resizer\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-resizer] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-image-resizer\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fbsdk] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-fbsdk\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:24:5-26:41
+MERGED from [:react-native-fbsdk] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-fbsdk\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.34.0.aar\496c41e2bf7ca729ff0439c311dbb903\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.34.0.aar\496c41e2bf7ca729ff0439c311dbb903\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.react:react-native:0.58.5] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\react-native-0.58.5.aar\2260572e70d1feed8f5325afe17dc231\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.58.5] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\react-native-0.58.5.aar\2260572e70d1feed8f5325afe17dc231\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-login:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-login-4.34.0.aar\4d8dc393ccb64c98dc3781c078381529\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-login-4.34.0.aar\4d8dc393ccb64c98dc3781c078381529\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-share-4.34.0.aar\7e6e21ad09eb059857d8103b77bfdcbd\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-share-4.34.0.aar\7e6e21ad09eb059857d8103b77bfdcbd\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\df60e3936bc822b17d9824fad9d48133\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\df60e3936bc822b17d9824fad9d48133\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\3bb79d4b31d3aea402805c40da62903c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\3bb79d4b31d3aea402805c40da62903c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\f3684e5ef8861d2e858d60bfbf4c419d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\f3684e5ef8861d2e858d60bfbf4c419d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\29e1196e2c8cb53c4f94de433992ef75\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\29e1196e2c8cb53c4f94de433992ef75\AndroidManifest.xml:20:5-44
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\90ad4a7c4b0cbfa0e150aff460d4c8e8\AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\90ad4a7c4b0cbfa0e150aff460d4c8e8\AndroidManifest.xml:5:5-43
+MERGED from [com.facebook.android:facebook-places:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-places-4.34.0.aar\25825f89df364694413116b52dcd4cc0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-places-4.34.0.aar\25825f89df364694413116b52dcd4cc0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.34.0.aar\025480f3b85bec8dafd2db02e4124544\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.34.0.aar\025480f3b85bec8dafd2db02e4124544\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.34.0.aar\73ad834c58efe5cdadb2b6fd853e9839\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.34.0.aar\73ad834c58efe5cdadb2b6fd853e9839\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-marketing:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.34.0.aar\e611dfd732172397d3203d14cf7e7104\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-marketing:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.34.0.aar\e611dfd732172397d3203d14cf7e7104\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\914945917a32d28c49f4af83f4a3902e\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\914945917a32d28c49f4af83f4a3902e\AndroidManifest.xml:24:5-26:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\a37bc43a88fbd897dc208fa3c287f732\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\a37bc43a88fbd897dc208fa3c287f732\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\71bb4d6c954844fa09cb6f94bec9729d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\71bb4d6c954844fa09cb6f94bec9729d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\904ae2e7dc990314c8d1cd5f641745a0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\904ae2e7dc990314c8d1cd5f641745a0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\cd127ac3ff6dec6af5785422df6ea982\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\cd127ac3ff6dec6af5785422df6ea982\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\ad7944fb13e6f571465d0e8679a6c8ed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\ad7944fb13e6f571465d0e8679a6c8ed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b31f47c0f17760de357734c4b39ea5fa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b31f47c0f17760de357734c4b39ea5fa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\d186ee196738d2461c49ee13af50d781\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\d186ee196738d2461c49ee13af50d781\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\711c6baa62d82d887b2cb54a98deb147\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\711c6baa62d82d887b2cb54a98deb147\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\b512535c664dc94a3b0c86909005b0ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\b512535c664dc94a3b0c86909005b0ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\89865d306ea0e691a8c90a10ab26b5d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\89865d306ea0e691a8c90a10ab26b5d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\5a080460c97317143d0e75427cc247de\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\5a080460c97317143d0e75427cc247de\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\b3292de824d386a862189f8847bbea9c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\b3292de824d386a862189f8847bbea9c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\28994f2d880c66b3d10bf80dae674579\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\28994f2d880c66b3d10bf80dae674579\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\38e44a144ee9be14ecef04d793c8d0bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\38e44a144ee9be14ecef04d793c8d0bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\bd9eaf8b90a5340ef179d187ba592d04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\bd9eaf8b90a5340ef179d187ba592d04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\ddc84698183baf7e4dedcfb11a45c89e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\ddc84698183baf7e4dedcfb11a45c89e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\418c4d189c9091e411fc73ffa4ccec11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\418c4d189c9091e411fc73ffa4ccec11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\df0d4b6859a84854641b14921e74f8d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\df0d4b6859a84854641b14921e74f8d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f1c6f7d6d7d6642da8e15ab3cc00b297\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f1c6f7d6d7d6642da8e15ab3cc00b297\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\fc3f12a7d1aaca3446f091f6c82a84a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\fc3f12a7d1aaca3446f091f6c82a84a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\95cccdfe691709ebe8c100b13a1a1989\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\95cccdfe691709ebe8c100b13a1a1989\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\83085e186e1f23a9ef3a32ade72a14ac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\83085e186e1f23a9ef3a32ade72a14ac\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1dd17ff735104b83db7628281af0f8b6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1dd17ff735104b83db7628281af0f8b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\473ca53963eb65984c2040088d87dec3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\473ca53963eb65984c2040088d87dec3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\9f0812776f21957325558d7024a680ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\9f0812776f21957325558d7024a680ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\9d3f92f4ccdf64be0ab1ac372e89d6b7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\9d3f92f4ccdf64be0ab1ac372e89d6b7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\7567ba50c8dfe36c95263a4445c94575\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\7567ba50c8dfe36c95263a4445c94575\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\16bc07771bc0f4d2144b6ed1550161ac\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\16bc07771bc0f4d2144b6ed1550161ac\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\57f02cd88f3048d4500859708d7cfff0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\57f02cd88f3048d4500859708d7cfff0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b6ff480053e460faad8a8dc2d88dfbfe\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b6ff480053e460faad8a8dc2d88dfbfe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\70d3f61a811ee79201f522756a19fa81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\70d3f61a811ee79201f522756a19fa81\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\5a9ea4bfb80fadb07840937929980dff\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\5a9ea4bfb80fadb07840937929980dff\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\b6c4b64a966e26cf479b9698ca66551f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\b6c4b64a966e26cf479b9698ca66551f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\1347813e270f6905c1b79428d256f6f8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\1347813e270f6905c1b79428d256f6f8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\388442fc30f09c2c6b613fe26b7bf0ec\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\388442fc30f09c2c6b613fe26b7bf0ec\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\6cb8f8b4d765437cd7214441d386c657\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\6cb8f8b4d765437cd7214441d386c657\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\d2fdfebb49ef6b86e4e9bbe6f88f0f7a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\d2fdfebb49ef6b86e4e9bbe6f88f0f7a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\b30f68c6db5b44297eb23980dfdc3404\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\b30f68c6db5b44297eb23980dfdc3404\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:react-native-maps] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-maps\lib\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from [:react-native-maps] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-maps\lib\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:10:22-78
 provider#com.imagepicker.FileProvider
-ADDED from [:react-native-image-picker] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:9-20:20
+ADDED from [:react-native-image-picker] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:9-20:20
 	android:grantUriPermissions
-		ADDED from [:react-native-image-picker] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:13-47
+		ADDED from [:react-native-image-picker] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:16:13-47
 	android:authorities
-		ADDED from [:react-native-image-picker] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:13-60
+		ADDED from [:react-native-image-picker] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:13-60
 	android:exported
-		ADDED from [:react-native-image-picker] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:13-37
+		ADDED from [:react-native-image-picker] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from [:react-native-image-picker] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:13-56
+		ADDED from [:react-native-image-picker] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:13-56
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:react-native-image-picker] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:17:13-19:58
+ADDED from [:react-native-image-picker] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:17:13-19:58
 	android:resource
-		ADDED from [:react-native-image-picker] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:19:17-55
+		ADDED from [:react-native-image-picker] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:19:17-55
 	android:name
-		ADDED from [:react-native-image-picker] /Users/najam/Desktop/reactnative-nodejs-app/firstProject/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:18:17-67
+		ADDED from [:react-native-image-picker] C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\node_modules\react-native-image-picker\android\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:18:17-67
 activity#com.facebook.FacebookActivity
-ADDED from [com.facebook.android:facebook-common:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-common-4.34.0.aar/8a5298cc7c12e5ab63b94aa6ce9fd417/AndroidManifest.xml:29:9-32:66
+ADDED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\df60e3936bc822b17d9824fad9d48133\AndroidManifest.xml:29:9-32:66
 	android:configChanges
-		ADDED from [com.facebook.android:facebook-common:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-common-4.34.0.aar/8a5298cc7c12e5ab63b94aa6ce9fd417/AndroidManifest.xml:31:13-96
+		ADDED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\df60e3936bc822b17d9824fad9d48133\AndroidManifest.xml:31:13-96
 	android:theme
-		ADDED from [com.facebook.android:facebook-common:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-common-4.34.0.aar/8a5298cc7c12e5ab63b94aa6ce9fd417/AndroidManifest.xml:32:13-63
+		ADDED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\df60e3936bc822b17d9824fad9d48133\AndroidManifest.xml:32:13-63
 	android:name
-		ADDED from [com.facebook.android:facebook-common:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-common-4.34.0.aar/8a5298cc7c12e5ab63b94aa6ce9fd417/AndroidManifest.xml:30:13-57
+		ADDED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\df60e3936bc822b17d9824fad9d48133\AndroidManifest.xml:30:13-57
 activity#com.facebook.CustomTabMainActivity
-ADDED from [com.facebook.android:facebook-common:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-common-4.34.0.aar/8a5298cc7c12e5ab63b94aa6ce9fd417/AndroidManifest.xml:33:9-71
+ADDED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\df60e3936bc822b17d9824fad9d48133\AndroidManifest.xml:33:9-71
 	android:name
-		ADDED from [com.facebook.android:facebook-common:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-common-4.34.0.aar/8a5298cc7c12e5ab63b94aa6ce9fd417/AndroidManifest.xml:33:19-68
+		ADDED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\df60e3936bc822b17d9824fad9d48133\AndroidManifest.xml:33:19-68
 activity#com.facebook.CustomTabActivity
-ADDED from [com.facebook.android:facebook-common:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-common-4.34.0.aar/8a5298cc7c12e5ab63b94aa6ce9fd417/AndroidManifest.xml:34:9-67
+ADDED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\df60e3936bc822b17d9824fad9d48133\AndroidManifest.xml:34:9-67
 	android:name
-		ADDED from [com.facebook.android:facebook-common:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-common-4.34.0.aar/8a5298cc7c12e5ab63b94aa6ce9fd417/AndroidManifest.xml:34:19-64
+		ADDED from [com.facebook.android:facebook-common:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-common-4.34.0.aar\df60e3936bc822b17d9824fad9d48133\AndroidManifest.xml:34:19-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\f3684e5ef8861d2e858d60bfbf4c419d\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\f3684e5ef8861d2e858d60bfbf4c419d\AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\f3684e5ef8861d2e858d60bfbf4c419d\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\f3684e5ef8861d2e858d60bfbf4c419d\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\f3684e5ef8861d2e858d60bfbf4c419d\AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\29e1196e2c8cb53c4f94de433992ef75\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\29e1196e2c8cb53c4f94de433992ef75\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\29e1196e2c8cb53c4f94de433992ef75\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\29e1196e2c8cb53c4f94de433992ef75\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\90ad4a7c4b0cbfa0e150aff460d4c8e8\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\71bb4d6c954844fa09cb6f94bec9729d\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\71bb4d6c954844fa09cb6f94bec9729d\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\90ad4a7c4b0cbfa0e150aff460d4c8e8\AndroidManifest.xml:10:13-66
+	android:name
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\90ad4a7c4b0cbfa0e150aff460d4c8e8\AndroidManifest.xml:9:13-58
 provider#com.facebook.marketing.internal.MarketingInitProvider
-ADDED from [com.facebook.android:facebook-marketing:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.34.0.aar/fcd0e569f2fd867186f6b227ae476469/AndroidManifest.xml:29:9-32:40
+ADDED from [com.facebook.android:facebook-marketing:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.34.0.aar\e611dfd732172397d3203d14cf7e7104\AndroidManifest.xml:29:9-32:40
 	android:authorities
-		ADDED from [com.facebook.android:facebook-marketing:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.34.0.aar/fcd0e569f2fd867186f6b227ae476469/AndroidManifest.xml:31:13-73
+		ADDED from [com.facebook.android:facebook-marketing:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.34.0.aar\e611dfd732172397d3203d14cf7e7104\AndroidManifest.xml:31:13-73
 	android:exported
-		ADDED from [com.facebook.android:facebook-marketing:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.34.0.aar/fcd0e569f2fd867186f6b227ae476469/AndroidManifest.xml:32:13-37
+		ADDED from [com.facebook.android:facebook-marketing:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.34.0.aar\e611dfd732172397d3203d14cf7e7104\AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from [com.facebook.android:facebook-marketing:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.34.0.aar/fcd0e569f2fd867186f6b227ae476469/AndroidManifest.xml:30:13-81
+		ADDED from [com.facebook.android:facebook-marketing:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.34.0.aar\e611dfd732172397d3203d14cf7e7104\AndroidManifest.xml:30:13-81
 provider#com.facebook.internal.FacebookInitProvider
-ADDED from [com.facebook.android:facebook-core:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-core-4.34.0.aar/1e07bca4be78898bbf0d2bb6765dc257/AndroidManifest.xml:39:9-42:40
+ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\914945917a32d28c49f4af83f4a3902e\AndroidManifest.xml:39:9-42:40
 	android:authorities
-		ADDED from [com.facebook.android:facebook-core:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-core-4.34.0.aar/1e07bca4be78898bbf0d2bb6765dc257/AndroidManifest.xml:41:13-72
+		ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\914945917a32d28c49f4af83f4a3902e\AndroidManifest.xml:41:13-72
 	android:exported
-		ADDED from [com.facebook.android:facebook-core:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-core-4.34.0.aar/1e07bca4be78898bbf0d2bb6765dc257/AndroidManifest.xml:42:13-37
+		ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\914945917a32d28c49f4af83f4a3902e\AndroidManifest.xml:42:13-37
 	android:name
-		ADDED from [com.facebook.android:facebook-core:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-core-4.34.0.aar/1e07bca4be78898bbf0d2bb6765dc257/AndroidManifest.xml:40:13-70
+		ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\914945917a32d28c49f4af83f4a3902e\AndroidManifest.xml:40:13-70
 receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
-ADDED from [com.facebook.android:facebook-core:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-core-4.34.0.aar/1e07bca4be78898bbf0d2bb6765dc257/AndroidManifest.xml:44:9-50:20
+ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\914945917a32d28c49f4af83f4a3902e\AndroidManifest.xml:44:9-50:20
 	android:exported
-		ADDED from [com.facebook.android:facebook-core:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-core-4.34.0.aar/1e07bca4be78898bbf0d2bb6765dc257/AndroidManifest.xml:46:13-37
+		ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\914945917a32d28c49f4af83f4a3902e\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from [com.facebook.android:facebook-core:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-core-4.34.0.aar/1e07bca4be78898bbf0d2bb6765dc257/AndroidManifest.xml:45:13-86
+		ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\914945917a32d28c49f4af83f4a3902e\AndroidManifest.xml:45:13-86
 intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
-ADDED from [com.facebook.android:facebook-core:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-core-4.34.0.aar/1e07bca4be78898bbf0d2bb6765dc257/AndroidManifest.xml:47:13-49:29
+ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\914945917a32d28c49f4af83f4a3902e\AndroidManifest.xml:47:13-49:29
 action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
-ADDED from [com.facebook.android:facebook-core:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-core-4.34.0.aar/1e07bca4be78898bbf0d2bb6765dc257/AndroidManifest.xml:48:17-95
+ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\914945917a32d28c49f4af83f4a3902e\AndroidManifest.xml:48:17-95
 	android:name
-		ADDED from [com.facebook.android:facebook-core:4.34.0] /Users/najam/.gradle/caches/transforms-1/files-1.1/facebook-core-4.34.0.aar/1e07bca4be78898bbf0d2bb6765dc257/AndroidManifest.xml:48:25-92
+		ADDED from [com.facebook.android:facebook-core:4.34.0] C:\Users\Najam\.gradle\caches\transforms-1\files-1.1\facebook-core-4.34.0.aar\914945917a32d28c49f4af83f4a3902e\AndroidManifest.xml:48:25-92
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:1:1-30:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:1:1-35:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/najam/Desktop/reactnative-nodejs-app/firstProject/android/app/src/main/AndroidManifest.xml:1:1-30:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\Najam\Desktop\Hackthon\reactnative-nodejs-app\firstProject\android\app\src\main\AndroidManifest.xml:1:1-35:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

@@ -8,7 +8,7 @@ import {
   ScrollView
 } from "react-native";
 import { Card, ListItem, Button, Icon } from "react-native-elements";
-import Contacts from 'react-native-contacts';
+// import Contacts from 'react-native-contacts';
 import { AsyncStorage } from "react-native";
 import { Actions } from "react-native-router-flux";
 
